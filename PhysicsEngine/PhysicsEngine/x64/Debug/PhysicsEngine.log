@@ -1,0 +1,19 @@
+﻿  main.cpp
+C:\Users\keesu\Downloads\PhysicsEngine\PhysicsEngine\main.cpp(30,12): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\keesu\Downloads\PhysicsEngine\PhysicsEngine\baseWin.h(12,1): warning C4311: '형식 캐스트': 'DERIVED_TYPE *'에서 'LONG'(으)로 포인터가 잘립니다.
+          with
+          [
+              DERIVED_TYPE=MainWindow
+          ]
+C:\Users\keesu\Downloads\PhysicsEngine\PhysicsEngine\baseWin.h(7): message : 클래스 템플릿 멤버 함수 'LRESULT BaseWindow<MainWindow>::WindowProc(HWND,UINT,WPARAM,LPARAM)'을(를) 컴파일하는 중입니다.
+C:\Users\keesu\Downloads\PhysicsEngine\PhysicsEngine\baseWin.h(33): message : 컴파일되는 함수 템플릿 인스턴스화 'LRESULT BaseWindow<MainWindow>::WindowProc(HWND,UINT,WPARAM,LPARAM)'에 대한 참조를 확인하세요.
+C:\Users\keesu\Downloads\PhysicsEngine\PhysicsEngine\mainWin.h(7): message : 컴파일되는 클래스 템플릿 인스턴스화 'BaseWindow<MainWindow>'에 대한 참조를 확인하세요.
+C:\Users\keesu\Downloads\PhysicsEngine\PhysicsEngine\baseWin.h(12,1): warning C4302: '형식 캐스트': 'DERIVED_TYPE *'에서 'LONG'(으)로 잘립니다.
+          with
+          [
+              DERIVED_TYPE=MainWindow
+          ]
+  mainWin.cpp
+  코드를 생성하고 있습니다...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\keesu\Downloads\PhysicsEngine\x64\Debug\PhysicsEngine.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
